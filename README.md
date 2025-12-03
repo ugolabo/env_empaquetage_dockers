@@ -108,7 +108,7 @@ Inconvénients : La solution est plus complexe à gérer que des environnements 
 
 Le cas de figure utilisé pour les tests est simple. Il requiert peu de modules indépendants. Selon le projet, les préférences :
 
-- Conda pour des projets simples.
-- pyenv et uv pour des projets complexes où se multiplient les versions, les modules indépendants, les coéquipiers, etc.
-- Docker pour la même raison que pyenv et uv.
+- **Conda** pour des projets simples.
+- **pyenv et uv** pour des projets complexes où se multiplient les versions, les modules indépendants, les coéquipiers, etc.
+- **Docker** pour la même raison que pyenv et uv.
 - Le choix entre un environnement virtuel ou un conteneur relève de bien d'autres facteurs.

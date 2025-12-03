@@ -90,7 +90,7 @@ Par rapport à cx_Freeze, py2exe, PyInstaller est le plus activement maintenu et
 
 **Inconvénients** : Pour exécuter PyInstaller sur une machine Windows, l'utilisateur double-clique sur un fichier EXE qui supporte bien Python 2.7. Cependant, le .EXE n'est pas "propre" (il s'agit d'un dossier temporaire décompressé à l'exécution). Pour exécuter PyInstaller sur une machine Linux, l'utilisateur double-clique sur un EXE qui supporte bien Python 2.7. Cependant, le binaire compilé sur Ubuntu 24.04, par exemple, fonctionnera sur certaines des anciennes versions d'Ubuntu, mais non sur de plus vieilles versions. Le binaire ne fonctionnera probablement pas sur d'autres distributions Linux (à tester). Solution risquée.
 
-### Conteneurs
+### Utiliser un conteneur
 
 Un conteneur est une amélioration plus sophistiquée des environnements virtuels et de l'empaquetage. Le concepteur du conteneur comme l'utilisateur du conteneur doivent utiliser un logiciel de conteneur.
 

@@ -2,7 +2,7 @@
 
 Le projet teste l'utilisation de solutions pour reproduire un projet en Python 2.7. Ce dernier est dans le dépôt gothon???. Ce dépôt-ci est un **sommaire des solutions** testées. Le cas de figure pourrait être un autre projet en Python 3.
 
-IMG compo
+[TOC]
 
 ## Mise en place et structure
 

@@ -10,7 +10,7 @@ IMG compo
 
 Un environnement permet de contenir un projet avec une version de Python et des versions de modules indépendants. Le projet, qui compte des codes sources, des fichiers, des données, des images, etc., est isolé du reste de l'ordinateur.
 
-<img src="img/venv.jpg" alt="" width="300px" >
+<img src="img/venv.jpg" alt="" width="500px" >
 
 Il est possible d'exporter ce projet comme un dossier compressé. Le projet peut aussi transiter par un dépôt de données (GitHub, par exemple). Il suffit d'importer ou de télécharger le projet, de reproduire l'environnement du projet sur un autre ordinateur -- version de Python et versions de modules indépendants -- pour réimplanter le projet.
 
@@ -18,7 +18,7 @@ Il est possible d'exporter ce projet comme un dossier compressé. Le projet peut
 
 Conda est associé à la distribution Anaconda. Il faut installer cette distribution qui comprend des logiciels et un environnement virtuel base avec une version de l'interpréteur Python et des modules indépendants (répertoriés avec requirements.txt; fichier obtenu par `pip freeze`). Conda permet de créer d'autres environnements.
 
-<img src="img/env_conda.png" alt="">
+<img src="img/env_conda.png" alt="" width="500px" >
 
 Avantages : La solution fonctionne avec tous projets Python; même avec la version 2.7 de l'interpréteur.
 
@@ -28,7 +28,7 @@ Inconvénients : Il faut installer Anaconda pour bénéficier des commandes Cond
 
 C'est un module Python standard. Il vient avec l'installation d'une version de l'interpréteur Python.
 
-<img src="img/python_venv.jpg" alt="">
+<img src="img/python_venv.jpg" alt="" width="500px" >
 
 Avantages : La solution fonctionne comme Conda env, mais sans avoir à installer une lourde distribution comme Anaconda comprenant un environnement de base (une version de l'interpréteur Python et des modules indépendants, des logiciels).
 
@@ -68,7 +68,7 @@ Inconvénients : La solution est plus complexe à gérer que Conda env. Cette so
 
 L'empaquetage natif (standalone package) crée un exécutable qui inclut une version de l'interpréteur Python et toutes les dépendances (modules indépendants) dans un seul fichier exécutable comme un logiciel, permettant l'exécution directe sur le système d'exploitation cible (OS).
 
-<img src="img/empaquetage.png" alt="">
+<img src="img/empaquetage.png" alt="" width="500px" >
 
 Il est possible d'exporter le fichier exécutable. Le projet peut aussi transiter par un dépôt de données (GitHub, par exemple). Il suffit d'importer ou de télécharger le fichier et de lancer son exécution, mais sans pouvoir reproduire le projet sur un autre ordinateur.
 
@@ -76,7 +76,7 @@ Il est possible d'exporter le fichier exécutable. Le projet peut aussi transite
 
 Par rapport à cx_Freeze, py2exe, PyInstaller est le plus activement maintenu et le plus recommandé, en particulier pour les versions plus anciennes de Python.
 
-<img src="img/pyinstaller.png" alt="">
+<img src="img/pyinstaller.png" alt="" width="500px" >
 
 Avantages : PyInstaller est une solution de rechange aux environnements virtuels pour les projets simples en Python 3 et convient aux vieux projets en Python 2.
 
@@ -86,13 +86,13 @@ Inconvénients : Pour exécuter PyInstaller sur une machine Windows, l'utilisate
 
 Un conteneur est une amélioration plus sophistiquée des environnements virtuels et de l'empaquetage. Le concepteur du conteneur comme l'utilisateur du conteneur doivent utiliser un logiciel de conteneur.
 
-<img src="img/conteneur.png" alt="">
+<img src="img/conteneur.png" alt="" width="500px" >
 
 **Cas 6 : Docker**
 
 Pour exécuter un projet Python sur un serveur ou dans un environnement de déploiement structuré (même pour un projet en Python 2.7), Docker est une bonne approche.
 
-<img src="img/docker.png" alt="">
+<img src="img/docker.png" alt="" width="500px" >
 
 À noter que Docker a aussi été tester sur un projet en Python 3. Ce dernier est dans le dépôt webpy_py311.???
 

@@ -42,7 +42,7 @@ C'est un module Python standard. Il vient avec l'installation d'une version de l
 
 **Inconvénients** : On ne peut installer un autre interpréteur Python que celui du système. Ce qui ne permet pas de rendre un projet avec la version 2.7 de l'interpréteur Python ou une autre version. Chaque projet de distingue par ses versions de modules indépendants et ses actifs. Solution obsolète.
 
-**Cas 3 : pyenv et Poetry**
+#### Cas 3 : pyenv et Poetry
 
 pyenv permet d'installer un environnement et de choisir un interpréteur Python. pyenv permet de basculer facilement entre différentes versions de l'interpréteur Python.
 
@@ -56,7 +56,7 @@ Poetry gère les dépendances du projet (les modules indépendants). Il facilite
 
 **Inconvénients** : La solution est plus complexe à gérer que Conda env. Les fichiers pyproject.toml et poetry.lock ne sont pas une grande amélioration par rapport au fichier requirements.txt obtenu par `pip freeze` et largement répandu pour la gestion de projets Python.
 
-**Cas 4 : pyenv et uv**
+#### Cas 4 : pyenv et uv
 
 pyenv permet d'installer un environnement et de choisir un interpréteur Python. pyenv permet de basculer facilement entre différentes versions de l'interpréteur Python.
 
@@ -80,7 +80,7 @@ L'empaquetage natif (standalone package) crée un exécutable qui inclut une ver
 
 Il est possible d'exporter le fichier exécutable. Le projet peut aussi transiter par un dépôt de données (GitHub, par exemple). Il suffit d'importer ou de télécharger le fichier et de lancer son exécution, mais sans pouvoir reproduire le projet sur un autre ordinateur.
 
-**Cas 5 : PyInstaller**
+#### Cas 5 : PyInstaller
 
 Par rapport à cx_Freeze, py2exe, PyInstaller est le plus activement maintenu et le plus recommandé, en particulier pour les versions plus anciennes de Python.
 
@@ -96,7 +96,7 @@ Un conteneur est une amélioration plus sophistiquée des environnements virtuel
 
 <img src="img/conteneur.png" alt="" width="500px" >
 
-**Cas 6 : Docker**
+#### Cas 6 : Docker
 
 Pour exécuter un projet Python sur un serveur ou dans un environnement de déploiement structuré (même pour un projet en Python 2.7), Docker est une bonne approche.
 

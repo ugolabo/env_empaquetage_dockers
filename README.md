@@ -56,7 +56,7 @@ uv est un remplacement moderne et ultra rapide de Pip, Python Python venv et une
 
 |   |   |
 |---|---|
-| <img src="img/pyenv.png" alt=""> | <img src="img/poetry.png" alt=""> |
+| <img src="img/pyenv.png" alt=""> | <img src="img/uv.jpg" alt=""> |
 
 uv gère les dépendances du projet (les modules indépendants) et vise à remplacer pip, pip-tools et pipx. Il peut aussi remplacer venv, mais il ne peut créer un environnement avec un interpréteur Python 2 (c'est le pourquoi de pyenv). Il facilite l'empaquetage et la publication du projet. Il offre une solution de rechange au fichier requirements.txt obtenu par `pip freeze` avec le fichier pyproject.toml obtenu par `uv freeze`. Le fichier pyproject.toml va plus loin que le fichier requirements.txt, car il comporte aussi un template du projet avec le nom du projet, la version du projet, la licence utilisée, etc. Sans le pyproject.toml, il faut avoir la présence d'esprit d'ajouter ces renseignements au README. Les commandes uv sont plus riches que les commandes Pip. Par exemple, la commande `uv init` crée à la fois le pyproject.toml, le .gitignore, le README.md et un code source Python de départ. Contrairement à Poetry et son fichier poetry.lock, le fichier requirements.lock d'uv est facultatif.
 

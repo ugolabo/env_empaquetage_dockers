@@ -10,7 +10,7 @@ IMG compo
 
 Un environnement permet de contenir un projet avec une version de Python et des versions de modules indépendants. Le projet, qui compte des codes sources, des fichiers, des données, des images, etc., est isolé du reste de l'ordinateur.
 
-<img src="img/venv.jpg" alt="">
+<img src="img/venv.jpg" alt="" width="300px >
 
 Il est possible d'exporter ce projet comme un dossier compressé. Le projet peut aussi transiter par un dépôt de données (GitHub, par exemple). Il suffit d'importer ou de télécharger le projet, de reproduire l'environnement du projet sur un autre ordinateur -- version de Python et versions de modules indépendants -- pour réimplanter le projet.
 

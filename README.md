@@ -1,8 +1,16 @@
 # Environnements virtuels, empaquetage, conteneurs Dockers
 
-Le projet teste l'utilisation de solutions pour reproduire un projet en Python 2.7. Ce dernier est dans le dépôt gothon???. Ce dépôt-ci est un **sommaire des solutions** testées. Le cas de figure pourrait être un autre projet en Python 3.
+Le projet teste l'utilisation de solutions pour reproduire un projet en Python 2.7. Ce dernier est dans le dépôt gothon???. Ce dépôt-ci est un **sommaire des solutions** testées. Le cas de figure pourrait être un autre projet en Python 3. Les solutions testées :
 
-[TOC]
+- Environnements virtuels
+    - Conda env
+    - venv
+    - pyenv et Poetry
+    - pyenv et uv
+- Empaqueter
+    - PyInstaller
+- Conteneurs
+    - Docker
 
 ## Mise en place et structure
 

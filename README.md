@@ -23,6 +23,8 @@ En fonction du projet :
 
 ## Mise en place et structure
 
+Sommaire sans détailler les étapes.
+
 ### Créer des environnements virtuels
 
 Un environnement permet de contenir un projet avec une version de Python et des versions de modules indépendants. Le projet, qui compte des codes sources, des fichiers, des données, des images, etc., est isolé du reste de l'ordinateur.

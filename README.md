@@ -1,6 +1,6 @@
 # Environnements virtuels, empaquetage, conteneurs Dockers
 
-Le projet teste l'utilisation de solutions pour reproduire un projet en Python 2.7. Ce dernier est dans le dépôt gothon???. Ce dépôt-ci est un **sommaire des solutions** testées. Le cas de figure utilisé pour les tests est simple. Le cas de figure pourrait être un autre projet en Python 3. Les solutions testées :
+Le projet teste l'utilisation de solutions pour reproduire un projet en Python 2.7. Ce dernier est dans le dépôt **gothon**. Ce dépôt-ci est un **sommaire des solutions** testées. Le cas de figure utilisé pour les tests est simple. Le cas de figure pourrait être un autre projet en Python 3. Les solutions testées :
 
 - Environnements virtuels
     - Conda env
@@ -113,7 +113,7 @@ Pour exécuter un projet Python sur un serveur ou dans un environnement de dépl
 
 <img src="img/docker.png" alt="" width="500px" >
 
-À noter que Docker a aussi été tester sur un projet en Python 3. Ce dernier est dans le dépôt webpy_py311.???
+À noter que Docker a aussi été tester sur un projet en Python 3. Ce dernier est dans le dépôt **webpy_py311**.
 
 Il est possible d'exporter une image du conteneur; comme un fichier. Le projet peut aussi transiter par un dépôt de données (GitHub, par exemple). Il suffit d'importer ou de télécharger l'image et de lancer son exécution dans le logiciel de conteneur, sans pouvoir reproduire ou modifier le projet. Le concepteur reste le mettre d'oeuvre qui construit l'image et la partage.
 

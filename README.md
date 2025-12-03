@@ -1,6 +1,6 @@
 # Environnements virtuels, empaquetage, conteneurs Dockers
 
-Le projet teste l'utilisation de solutions pour reproduire un projet en Python 2.7. Ce dernier est dans le dépôt gothon???. Ce dépôt-ci est un **sommaire des solutions** testées. Le cas de figure pourrait être un autre projet en Python 3. Les solutions testées :
+Le projet teste l'utilisation de solutions pour reproduire un projet en Python 2.7. Ce dernier est dans le dépôt gothon???. Ce dépôt-ci est un **sommaire des solutions** testées. Le cas de figure utilisé pour les tests est simple. Le cas de figure pourrait être un autre projet en Python 3. Les solutions testées :
 
 - Environnements virtuels
     - Conda env
@@ -11,6 +11,15 @@ Le projet teste l'utilisation de solutions pour reproduire un projet en Python 2
     - PyInstaller
 - Conteneurs
     - Docker
+
+## Conclusion
+
+En fonction du projet :
+
+- **Conda** pour des projets simples en solo ou en petite équipe, qui n'évolueront pas beaucoup.
+- **pyenv et uv** pour des projets complexes où se multiplient les versions, les modules indépendants, les coéquipiers, les tests, etc.
+- **Docker** pour les mêmes raisons que pyenv et uv.
+- Le choix entre un environnement virtuel ou un conteneur relève de bien d'autres facteurs.
 
 ## Mise en place et structure
 
@@ -111,12 +120,3 @@ Il est possible d'exporter le projet qui permet de construire une image; comme u
 **Avantages** : Docker est une solution de rechange aux environnements virtuels et à l'empaquetage. La solution fonctionne avec tous projets Python; même avec la version 2.7 de l'interpréteur. La conteneurisation est plus robuste pour garantir que le projet (avec son interpréteur Python, ses modules indépendants et ses fichiers) fonctionne parfaitement sur n'importe quel serveur ou machine où Docker est installé.
 
 **Inconvénients** : La solution est plus complexe à gérer que des environnements virtuels ou l'empaquetage. Cette sophistication est prévue conçu pour déployer beaucoup de projets, en plusieurs versions; pour déployer de gros projets impliquant des tests et pour assurer un suivi serré comme le permet uv.
-
-### Conclusion
-
-Le cas de figure utilisé pour les tests est simple. Il requiert peu de modules indépendants. Selon le projet, les préférences :
-
-- **Conda** pour des projets simples.
-- **pyenv et uv** pour des projets complexes où se multiplient les versions, les modules indépendants, les coéquipiers, etc.
-- **Docker** pour la même raison que pyenv et uv.
-- Le choix entre un environnement virtuel ou un conteneur relève de bien d'autres facteurs.

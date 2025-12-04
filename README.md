@@ -2,6 +2,10 @@
 
 Le projet teste l'utilisation de solutions pour reproduire un projet en Python 2.7. Ce dernier est dans le dépôt : **gothon**. Ce dépôt-ci est un **sommaire des solutions** testées. Le cas de figure utilisé pour les tests est simple. Le cas de figure pourrait être un autre projet en Python 3. Les solutions testées :
 
+| Environnements virtuels  | Empaquetage  | Conteneurs  |
+|---|---|---|
+| <img src="img/venv.jpg" alt="" > | <img src="img/empaquetage.png" alt="" > | <img src="img/conteneur.png" alt="" > |
+
 - Environnements virtuels
     - Conda env
     - venv
@@ -11,14 +15,8 @@ Le projet teste l'utilisation de solutions pour reproduire un projet en Python 2
     - PyInstaller
 - Conteneurs
     - Docker
- 
-| Environnements virtuels  | Empaquetage  | Conteneurs  |
-|---|---|---|
-| <img src="img/venv.jpg" alt="" > | <img src="img/empaquetage.png" alt="" > | <img src="img/conteneur.png" alt="" > |
 
-## Conclusion
-
-En fonction du projet :
+**Conclusion en fonction du projet :**
 
 - **Conda** pour des projets simples en solo ou en petite équipe, qui n'évolueront pas beaucoup.
 - **pyenv et uv** pour des projets complexes où se multiplient les versions, les modules indépendants, les coéquipiers, les tests, etc.

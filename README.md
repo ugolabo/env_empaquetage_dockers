@@ -7,12 +7,12 @@ Le projet teste l'utilisation de solutions pour reproduire un projet en Python 2
     - venv
     - pyenv et Poetry
     - pyenv et uv
-- Empaqueter
+- Empaquetage
     - PyInstaller
 - Conteneurs
     - Docker
  
-|   |   |   |
+| Environnements virtuels  | Empaquetage  | Conteneurs  |
 |---|---|---|
 | <img src="img/venv.jpg" alt="" > | <img src="img/empaquetage.png" alt="" > | <img src="img/conteneur.png" alt="" > |
 

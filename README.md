@@ -11,6 +11,10 @@ Le projet teste l'utilisation de solutions pour reproduire un projet en Python 2
     - PyInstaller
 - Conteneurs
     - Docker
+ 
+|   |   |   |
+|---|---|---|
+| <img src="img/venv.jpg" alt="" > | <img src="img/empaquetage.png" alt="" > | <img src="img/conteneur.png" alt="" > |
 
 ## Conclusion
 

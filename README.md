@@ -2,18 +2,18 @@
 
 Le projet teste l'utilisation de solutions pour reproduire un projet en Python 2.7. Ce dernier est dans le dépôt : **gothon**. Ce dépôt-ci est un **sommaire des solutions** testées. Le cas de figure utilisé pour les tests est simple. Le cas de figure pourrait être un autre projet en Python 3. Les solutions testées :
 
-| Environnements virtuels  | Empaquetage  | Conteneurs  |
+| 1. Environnements virtuels  | 2. Empaquetage  | 3. Conteneurs  |
 |---|---|---|
 | <img src="img/venv.jpg" alt="" > | <img src="img/empaquetage.png" alt="" > | <img src="img/conteneur.png" alt="" > |
 
-- Environnements virtuels
+1. Environnements virtuels
     - Conda env
     - venv
     - pyenv et Poetry
     - pyenv et uv
-- Empaquetage
+1. Empaquetage
     - PyInstaller
-- Conteneurs
+1. Conteneurs
     - Docker
 
 **Conclusion en fonction du projet :**
@@ -27,7 +27,7 @@ Le projet teste l'utilisation de solutions pour reproduire un projet en Python 2
 
 Sommaire sans détailler les étapes.
 
-### Créer des environnements virtuels
+### 1. Créer des environnements virtuels
 
 Un environnement permet de contenir un projet avec une version de Python et des versions de modules indépendants. Le projet, qui compte des codes sources, des fichiers, des données, des images, etc., est isolé du reste de l'ordinateur.
 
@@ -85,7 +85,7 @@ uv gère les dépendances du projet (les modules indépendants) et vise à rempl
 
 **Inconvénients** : La solution est plus complexe à gérer que Conda env. Cette sophistication est prévue conçu pour déployer beaucoup de projets, en plusieurs versions; pour déployer de gros projets impliquant des tests et pour assurer un suivi serré grâce aux templates du projet. Les commandes uv plus avancées ne prennent pas en charge Python 2.
 
-### Empaqueter comme un logiciel
+### 2. Empaqueter comme un logiciel
 
 L'empaquetage natif (standalone package) crée un exécutable qui inclut une version de l'interpréteur Python et toutes les dépendances (modules indépendants) dans un seul fichier exécutable comme un logiciel, permettant l'exécution directe sur le système d'exploitation cible (OS).
 
@@ -103,7 +103,7 @@ Par rapport à cx_Freeze, py2exe, PyInstaller est le plus activement maintenu et
 
 **Inconvénients** : Pour exécuter PyInstaller sur une machine Windows, l'utilisateur double-clique sur un fichier EXE qui supporte bien Python 2.7. Cependant, le .EXE n'est pas "propre" (il s'agit d'un dossier temporaire décompressé à l'exécution). Pour exécuter PyInstaller sur une machine Linux, l'utilisateur double-clique sur un EXE qui supporte bien Python 2.7. Cependant, le binaire compilé sur Ubuntu 24.04, par exemple, fonctionnera sur certaines des anciennes versions d'Ubuntu, mais non sur de plus vieilles versions. Le binaire ne fonctionnera probablement pas sur d'autres distributions Linux (à tester). Solution risquée.
 
-### Utiliser un conteneur
+### 3. Utiliser un conteneur
 
 Un conteneur est une amélioration plus sophistiquée des environnements virtuels et de l'empaquetage. Le concepteur du conteneur comme l'utilisateur du conteneur doivent utiliser un logiciel de conteneur.
 

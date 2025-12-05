@@ -89,7 +89,7 @@ uv gère les dépendances du projet (les modules indépendants) et vise à rempl
 
 L'empaquetage natif (standalone package) crée un exécutable qui inclut une version de l'interpréteur Python et toutes les dépendances (modules indépendants) dans un seul fichier exécutable comme un logiciel, permettant l'exécution directe sur le système d'exploitation cible (OS).
 
-<img src="img/empaquetage.png" alt="" width="500px" >
+<img src="img/empaquetage.png" alt="" width="300px" >
 
 Il est possible d'exporter le fichier exécutable. Le projet peut aussi transiter par un dépôt de données (GitHub, par exemple). Il suffit d'importer ou de télécharger le fichier et de lancer son exécution, mais sans pouvoir reproduire le projet sur un autre ordinateur.
 
@@ -97,7 +97,7 @@ Il est possible d'exporter le fichier exécutable. Le projet peut aussi transite
 
 Par rapport à cx_Freeze, py2exe, PyInstaller est le plus activement maintenu et le plus recommandé, en particulier pour les versions plus anciennes de Python.
 
-<img src="img/pyinstaller.png" alt="" width="500px" >
+<img src="img/pyinstaller.png" alt="" width="300px" >
 
 **Avantages** : PyInstaller est une solution de rechange aux environnements virtuels pour les projets simples en Python 3 et convient aux vieux projets en Python 2.
 

@@ -107,7 +107,7 @@ Par rapport à cx_Freeze, py2exe, PyInstaller est le plus activement maintenu et
 
 Un conteneur est une amélioration plus sophistiquée des environnements virtuels et de l'empaquetage. Le concepteur du conteneur comme l'utilisateur du conteneur doivent utiliser un logiciel de conteneur.
 
-<img src="img/conteneur.png" alt="" width="500px" >
+<img src="img/conteneur.png" alt="" width="300px" >
 
 #### Cas 6 : Docker
 
